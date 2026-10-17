@@ -11,6 +11,12 @@ body {
   background: #f6f8f7;
 }
 
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
 .site-header {
   background: #1f7a5c;
   color: #fff;
@@ -81,4 +87,47 @@ body {
   .cards {
     flex-direction: column;
   }
+}
+
+.pricing__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: #fff;
+}
+
+.pricing__table th,
+.pricing__table td {
+  border: 1px solid #dde5e1;
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+}
+
+.pricing__table th {
+  background: #1f7a5c;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .pricing__table th,
+  .pricing__table td {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+#kontakt {
+  background: #1f7a5c;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#kontakt address {
+  font-style: normal;
+  margin-top: 0.75rem;
+}
+
+#kontakt a {
+  color: #fff;
 }
