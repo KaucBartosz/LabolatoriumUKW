@@ -10,3 +10,37 @@ body {
   color: #22302b;
   background: #f6f8f7;
 }
+
+.site-header {
+  background: #1f7a5c;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.menu__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.menu__list a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+}
+
+.menu__list a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 600px) {
+  .menu__list {
+    flex-direction: column;
+  }
+}
